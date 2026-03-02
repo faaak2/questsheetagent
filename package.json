@@ -1,0 +1,13 @@
+{
+  "name": "character-sheet-pipeline",
+  "version": "1.0.0",
+  "description": "Multi-agent pipeline to convert RPG character sheets into interactive HTML",
+  "scripts": {
+    "start": "pwsh -File run.ps1",
+    "start:bash": "bash run.sh",
+    "deploy": "pwsh -File deploy.ps1",
+    "deploy:bash": "bash deploy.sh"
+  },
+  "keywords": ["rpg", "character-sheet", "claude", "agent"],
+  "license": "MIT"
+}
